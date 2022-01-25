@@ -1,5 +1,5 @@
 * {
-    background-color: rgb(226, 216, 224); /*En backgrundsfärg för alla mina sidor*/
+    background-color: rgb(241, 237, 241); /*En backgrundsfärg för alla mina sidor*/
  
   }
 
@@ -114,9 +114,9 @@ nav {
     transition: 1s;
 }
 
-@media(max.width: 700px){
+@media(max-width: 700px){
     .text-box h1{
-        font-size: 20px;
+        font-size: 30px;
    
    }
    .nav-links ul li{
@@ -124,7 +124,7 @@ nav {
 }
 .nav-links{
     position: absolute;
-    background: : #f44336;
+    background:  #f44336;
     height: 100vh;
     width: 200px;
     top: 0;
