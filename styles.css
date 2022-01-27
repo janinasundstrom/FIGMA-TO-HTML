@@ -1,5 +1,5 @@
 * {
-    background-color: rgb(241, 237, 241); /*En backgrundsfärg för alla mina sidor*/
+    background-color: rgb(234, 238, 234); /*En backgrundsfärg för alla mina sidor*/
  
   }
 
@@ -54,14 +54,14 @@ nav {
     .nav-links ul li a{
         color: #000;
         text-decoration: none;
-        font-size: 13px;
+        font-size: 18px;
     }
 
     .nav-links ul li::after{
         content: '';
         width: 0%;
         height: 2px;
-        background: #f44336;
+        background: #2fdb0c;
         display: block;
         margin: auto;
         transition: 0.5s;
@@ -73,15 +73,38 @@ nav {
     }
 
     .text-box{
-        widt: 90%;
+        width: 60%;
         color: #000;
         position: absolute;
-        top: 50%;
+        top: 100%;
         left: 50%;
         transform: translate(-50%,-50%);
         text-align: center;
 
  }
+
+
+ .text-box1{
+    width: 60%;
+    color: #000;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+
+.text-box2{
+    width: 60%;
+    color: #000;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
 
  .text-box h1{
      font-size: 62px;
@@ -109,8 +132,8 @@ nav {
 }
 
 .hero-btn:hover{
-    border: 1px solid #f44336;
-    background: #f44336;
+    border: 1px solid #2fdb0c;
+    background: #2fdb0c;
     transition: 1s;
 }
 
@@ -119,9 +142,14 @@ nav {
         font-size: 30px;
    
    }
+
+
    .nav-links ul li{
        display:block;
 }
+
+
+
 .nav-links{
     position: absolute;
     background:  #f44336;
@@ -129,7 +157,5 @@ nav {
     width: 200px;
     top: 0;
     right: 0;
-    text.align: left;
-    z-index: 2;
-
-}  
+}
+}
